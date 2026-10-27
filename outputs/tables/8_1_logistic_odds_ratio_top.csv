@@ -1,0 +1,11 @@
+﻿,계수,Odds ratio,95% CI 하한,95% CI 상한,p
+discharge_disposition_id_22,1.361,3.9,3.435,4.427,0.0
+discharge_disposition_id_5,0.975,2.652,2.242,3.137,0.0
+discharge_disposition_id_2,0.587,1.798,1.561,2.071,0.0
+medical_specialty_Nephrology,0.542,1.719,1.421,2.079,0.0
+discharge_disposition_id_infrequent_sklearn,0.523,1.686,1.354,2.101,0.0
+discharge_disposition_id_3,0.435,1.544,1.433,1.664,0.0
+metformin_Up,-0.397,0.672,0.463,0.977,0.037
+diag_2_Neoplasms,0.39,1.477,1.271,1.716,0.0
+discharge_disposition_id_7,0.385,1.47,1.133,1.906,0.004
+glipizide_Steady,-0.319,0.727,0.546,0.968,0.029

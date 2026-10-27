@@ -1,0 +1,11 @@
+﻿,결측률,A1C/혈당 '검사 안 함'
+weight (제외),0.9692,
+medical_specialty,0.4894,
+payer_code,0.3957,
+admission_type_id,0.1031,
+admission_source_id,0.0697,
+discharge_disposition_id,0.0472,
+race,0.0223,
+diag_3,0.0143,
+diag_2,0.0036,
+diag_1,0.0002,

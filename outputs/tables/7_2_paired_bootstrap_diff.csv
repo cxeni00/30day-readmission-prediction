@@ -1,0 +1,16 @@
+﻿비교,지표,차이,95% CI,0 포함
+Spline Logistic − Logistic,AUROC,0.0008,-0.0021–0.0041,True
+Spline Logistic − Logistic,AUPRC,-0.003,-0.0079–0.0014,True
+Spline Logistic − Logistic,Brier,0.0,-0.0002–0.0003,True
+Random Forest − Logistic,AUROC,0.0101,0.0046–0.0156,False
+Random Forest − Logistic,AUPRC,0.0144,0.0041–0.0244,False
+Random Forest − Logistic,Brier,-0.0004,-0.0008–0.0001,True
+LightGBM − Logistic,AUROC,0.0102,0.0053–0.0151,False
+LightGBM − Logistic,AUPRC,0.016,0.0066–0.0251,False
+LightGBM − Logistic,Brier,-0.0009,-0.0014–-0.0005,False
+Dummy − Logistic,AUROC,-0.1593,-0.1721–-0.1455,False
+Dummy − Logistic,AUPRC,-0.1008,-0.1180–-0.0859,False
+Dummy − Logistic,Brier,0.004,0.0032–0.0050,False
+LightGBM − Random Forest,AUROC,0.0001,-0.0038–0.0041,True
+LightGBM − Random Forest,AUPRC,0.0016,-0.0054–0.0084,True
+LightGBM − Random Forest,Brier,-0.0005,-0.0010–-0.0001,False

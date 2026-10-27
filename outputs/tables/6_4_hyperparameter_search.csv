@@ -1,0 +1,6 @@
+﻿모델,방법,횟수,탐색 범위,최적값,CV AUROC,OOF AUROC,시간(초)
+Dummy,-,0,-,strategy=prior,0.500,0.500,0.9
+Logistic,RandomizedSearchCV,50,"C=loguniform(0.001, 100.0)","{""C"": 0.0081}",0.663 ± 0.007,0.662,32.0
+Spline Logistic,RandomizedSearchCV,50,"C=loguniform(0.001, 100.0)","{""C"": 0.0115}",0.664 ± 0.007,0.664,42.3
+Random Forest,RandomizedSearchCV,50,"max_depth=[6, 8, 10, 12, 16, None]; min_samples_leaf=randint(5, 21); max_features=['sqrt', 0.1, 0.2, 0.3]","{""max_depth"": 16, ""max_features"": 0.1, ""min_samples_leaf"": 8}",0.674 ± 0.007,0.674,1043.3
+LightGBM,RandomizedSearchCV,50,"learning_rate=uniform(0.05, 0.05); max_depth=[3, 4, 5, 6]; num_leaves=randint(7, 64); min_child_weight=loguniform(0.001, 10); subsample=uniform(0.7, 0.2); colsample_bytree=uniform(0.7, 0.2); reg_lambda=loguniform(0.001, 10)","{""colsample_bytree"": 0.7822, ""learning_rate"": 0.0517, ""max_depth"": 6, ""min_child_weight"": 4.296, ""num_leaves"": 25, ""reg_lambda"": 0.5282, ""subsample"": 0.8062, ""조기종료 트리 수"": 190}",0.674 ± 0.007,0.674,44.6
